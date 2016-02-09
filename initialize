@@ -4,18 +4,6 @@
 # However, you can run multiple times,
 # it should not change anything after the first run.
 
-# ----- remove fork files used by spf13-vim
-vimrc_forc_files=(
-  '.vimrc.before.fork'
-  '.vimrc.bundles.fork'
-  '.vimrc.fork'
-)
-for file in "${vimrc_forc_files[@]}"; do
-  if [ -e "$HOME/${file}" ]; then
-    rm -i "$HOME/${file}"
-  fi
-done
-
 remove_link() {
   if [ -h "$HOME/$1" ] ; then rm -i "$HOME/$1"; fi
 }
