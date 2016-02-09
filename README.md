@@ -25,3 +25,6 @@ It will ask you for your password in order to save the file after that you all s
 
 ##To use:
 ```tmuxinator start [workflow-name]```
+
+# TODO:
+- seperate vim into a vim distribution
