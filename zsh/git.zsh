@@ -3,6 +3,7 @@ alias gs='git status'
 # remote communicate
 alias gps='git push'
 alias gpsu='git push --set-upstream origin `git rev-parse --abbrev-ref HEAD`'
+alias gpsf='git push --force'
 alias gsp='git push'
 alias gpsp='git push production'
 alias gpsh='git push heroku'
