@@ -24,6 +24,7 @@ alias gou='git clean -id' # remove untracked files
 alias gob='git reset HEAD'
 alias goc='git reset --soft HEAD~1'
 alias gocc='git reset --hard HEAD~1' # c means confirm
+alias goch='git reset --hard' # h means hash
 alias gor='git checkout --track'
 alias grm='git rm -r --cached .'
 
