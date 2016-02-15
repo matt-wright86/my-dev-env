@@ -38,8 +38,6 @@ Bundle 'Rykka/lastbuf.vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'FooSoft/vim-argwrap'
 Bundle 'rking/ag.vim'
-Bundle 'Chun-Yang/vim-ag-anything'
-Bundle 'Chun-Yang/vim-action-macro'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'myusuf3/numbers.vim'
@@ -56,6 +54,10 @@ Bundle 'reedes/vim-textobj-sentence'
 Bundle 'reedes/vim-textobj-quote'
 Bundle 'reedes/vim-wordy'
 Bundle 'reedes/vim-litecorrect'
+
+" actions
+Bundle 'Chun-Yang/vim-action-ag'
+Bundle 'Chun-Yang/vim-action-macro'
 
 " motions
 Bundle 'tpope/vim-commentary'
