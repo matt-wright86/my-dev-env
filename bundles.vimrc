@@ -54,6 +54,7 @@ Bundle 'reedes/vim-textobj-sentence'
 Bundle 'reedes/vim-textobj-quote'
 Bundle 'reedes/vim-wordy'
 Bundle 'reedes/vim-litecorrect'
+Bundle 'rhysd/vim-textobj-anyblock'
 
 " actions
 Bundle 'Chun-Yang/vim-action-ag'
@@ -63,6 +64,7 @@ Bundle 'Chun-Yang/vim-action-macro'
 Bundle 'tpope/vim-commentary'
 Bundle 'christoomey/vim-sort-motion'
 Bundle 'bkad/CamelCaseMotion'
+Bundle 'rhysd/clever-f.vim'
 
 " auto complete
 Bundle 'Shougo/neocomplcache'
