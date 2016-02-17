@@ -54,7 +54,7 @@ Bundle 'reedes/vim-textobj-sentence'
 Bundle 'reedes/vim-textobj-quote'
 Bundle 'reedes/vim-wordy'
 Bundle 'reedes/vim-litecorrect'
-Bundle 'rhysd/vim-textobj-anyblock'
+Bundle 'Chun-Yang/vim-textobj-anyblock'
 
 " actions
 Bundle 'Chun-Yang/vim-action-ag'
