@@ -55,6 +55,7 @@ Bundle 'reedes/vim-textobj-quote'
 Bundle 'reedes/vim-wordy'
 Bundle 'reedes/vim-litecorrect'
 Bundle 'Chun-Yang/vim-textobj-anyblock'
+Bundle 'Chun-Yang/vim-textobj-chunk'
 
 " actions
 Bundle 'Chun-Yang/vim-action-ag'
@@ -74,7 +75,6 @@ Bundle 'Chun-Yang/auto-pairs'
 
 " javascript
 Bundle 'othree/javascript-libraries-syntax.vim'
-Bundle 'poetic/vim-textobj-javascript'
 Bundle 'mxw/vim-jsx'
 Bundle 'elzr/vim-json'
 
