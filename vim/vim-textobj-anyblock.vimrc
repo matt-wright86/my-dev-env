@@ -1,1 +1,1 @@
-let g:textobj#anyblock#blocks = [ '(', '{', '[' ]
+let g:textobj#anyblock#blocks = [ '(', '{', '[', '<' ]
