@@ -60,6 +60,7 @@ Bundle 'Chun-Yang/vim-textobj-chunk'
 " actions
 Bundle 'Chun-Yang/vim-action-ag'
 Bundle 'Chun-Yang/vim-action-macro'
+Bundle 'Chun-Yang/vim-operator-replace'
 
 " motions
 Bundle 'tpope/vim-commentary'
