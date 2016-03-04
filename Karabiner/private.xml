@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Change Control+W to delete last word</name>
+    <identifier>remap.control_w_to_option_delete_last_word</identifier>
+    <not>TERMINAL</not>
+    <autogen>__KeyToKey__ KeyCode::W, VK_CONTROL, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
+  </item>
+</root>
