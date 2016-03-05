@@ -1,1 +1,1 @@
-nnoremap <Leader>ss :OverCommandLine<cr>%s/
+nnoremap <Leader>su :OverCommandLine<cr>%s/
