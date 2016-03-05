@@ -5,43 +5,33 @@
   call vundle#rc()
 " }
 
+" utils
 Bundle 'gmarik/vundle'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 
-Bundle 'ctrlpvim/ctrlp.vim'
-Bundle 'tacahiroy/ctrlp-funky'
+" config
+Bundle 'tpope/vim-sensible'
+
 Bundle 'kristijanhusak/vim-multiple-cursors'
 Bundle 'vim-scripts/sessionman.vim'
-" enhance %
-Bundle 'matchit.zip'
-Bundle 'bling/vim-airline'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'osyo-manga/vim-over'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-abolish.git'
-Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-unimpaired'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
-Bundle 'godlygeek/tabular'
 Bundle 'majutsushi/tagbar'
 Bundle 'briancollins/vim-jst'
-Bundle 'AndrewRadev/splitjoin.vim'
 Bundle 'Rykka/lastbuf.vim'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'FooSoft/vim-argwrap'
-Bundle 'rking/ag.vim'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'mustache/vim-mustache-handlebars'
-Bundle 'myusuf3/numbers.vim'
-Bundle 'rstacruz/sparkup'
-Bundle 'sjl/gundo.vim'
+
+" commands
+Bundle 'scrooloose/nerdtree'
+Bundle 'ctrlpvim/ctrlp.vim'
+Bundle 'tacahiroy/ctrlp-funky'
+Bundle 'rking/ag.vim'
+Bundle 'tpope/vim-abolish.git'
 
 " text-objects
 Bundle 'vim-scripts/argtextobj.vim'
@@ -60,12 +50,18 @@ Bundle 'Chun-Yang/vim-textobj-chunk'
 Bundle 'Chun-Yang/vim-action-ag'
 Bundle 'Chun-Yang/vim-action-macro'
 Bundle 'Chun-Yang/vim-operator-replace'
+Bundle 'FooSoft/vim-argwrap'
+Bundle 'tpope/vim-repeat'
+Bundle 'AndrewRadev/splitjoin.vim'
 
 " motions
 Bundle 'tpope/vim-commentary'
 Bundle 'christoomey/vim-sort-motion'
 Bundle 'bkad/CamelCaseMotion'
 Bundle 'rhysd/clever-f.vim'
+Bundle 'Lokaltog/vim-easymotion'
+" NOTE: enhance %
+Bundle 'matchit.zip'
 
 " auto complete
 Bundle 'Shougo/neocomplcache'
@@ -91,11 +87,8 @@ Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-haml'
 
-" tmux
-Bundle 'benmills/vimux'
-Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'jgdavey/vim-turbux'
-Bundle 'edkolev/tmuxline.vim'
+" html
+Bundle 'rstacruz/sparkup'
 
 " css
 Bundle 'hail2u/vim-css3-syntax'
@@ -106,5 +99,24 @@ Bundle 'flazz/vim-colorschemes'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'spf13/vim-colors'
 
-" autoformat use :Autoformat to autoformat
+" apperance
+Bundle 'bling/vim-airline'
+" NOTE: show line number with relative and absolute number
+Bundle 'Chun-Yang/numbers.vim'
+
+" syntax
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'godlygeek/tabular'
+" NOTE: autoformat use :Autoformat to autoformat
 Bundle "Chiel92/vim-autoformat"
+Bundle 'scrooloose/syntastic'
+
+" tmux
+Bundle 'benmills/vimux'
+Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'jgdavey/vim-turbux'
+Bundle 'edkolev/tmuxline.vim'
+
+" git
+Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
