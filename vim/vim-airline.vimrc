@@ -4,21 +4,18 @@ let g:airline_theme = 'solarized'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 
-" patch solarized theme to show modified status
-" black for unsaved
-let g:airline_theme_patch_func = 'SolarizedThemePatch'
-function! SolarizedThemePatch(palette)
-  if g:airline_theme == 'solarized'
-    for palette_modified in [
-          \ a:palette.normal_modified,
-          \ a:palette.insert_modified,
-          \ a:palette.visual_modified,
-          \ a:palette.replace_modified ]
-      for colors in values(palette_modified)
-        let colors[3] = 16
-      endfor
+" patch airline color theme, use black for unsaved
+let g:airline_theme_patch_func = 'UseBlackToShowUnsaved'
+function! UseBlackToShowUnsaved(palette)
+  for palette_modified in [
+        \ a:palette.normal_modified,
+        \ a:palette.insert_modified,
+        \ a:palette.visual_modified,
+        \ a:palette.replace_modified ]
+    for colors in values(palette_modified)
+      let colors[3] = 16
     endfor
-  endif
+  endfor
 endfunction
 
 call airline#parts#define_accent('syntastic', 'red')

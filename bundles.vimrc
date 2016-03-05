@@ -13,25 +13,15 @@ Bundle 'tomtom/tlib_vim'
 " config
 Bundle 'tpope/vim-sensible'
 
-Bundle 'kristijanhusak/vim-multiple-cursors'
-Bundle 'vim-scripts/sessionman.vim'
-Bundle 'osyo-manga/vim-over'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
-Bundle 'majutsushi/tagbar'
-Bundle 'briancollins/vim-jst'
-Bundle 'Rykka/lastbuf.vim'
-Bundle 'editorconfig/editorconfig-vim'
-Bundle 'mustache/vim-mustache-handlebars'
-
 " commands
 Bundle 'scrooloose/nerdtree'
+Bundle 'majutsushi/tagbar'
 Bundle 'ctrlpvim/ctrlp.vim'
 Bundle 'tacahiroy/ctrlp-funky'
 Bundle 'rking/ag.vim'
 Bundle 'tpope/vim-abolish.git'
+Bundle 'vim-scripts/sessionman.vim'
+Bundle 'Rykka/lastbuf.vim'
 
 " text-objects
 Bundle 'vim-scripts/argtextobj.vim'
@@ -45,6 +35,7 @@ Bundle 'reedes/vim-wordy'
 Bundle 'reedes/vim-litecorrect'
 Bundle 'Chun-Yang/vim-textobj-anyblock'
 Bundle 'Chun-Yang/vim-textobj-chunk'
+Bundle 'kristijanhusak/vim-multiple-cursors'
 
 " actions
 Bundle 'Chun-Yang/vim-action-ag'
@@ -53,6 +44,7 @@ Bundle 'Chun-Yang/vim-operator-replace'
 Bundle 'FooSoft/vim-argwrap'
 Bundle 'tpope/vim-repeat'
 Bundle 'AndrewRadev/splitjoin.vim'
+Bundle 'osyo-manga/vim-over'
 
 " motions
 Bundle 'tpope/vim-commentary'
@@ -62,6 +54,7 @@ Bundle 'rhysd/clever-f.vim'
 Bundle 'Lokaltog/vim-easymotion'
 " NOTE: enhance %
 Bundle 'matchit.zip'
+Bundle 'tpope/vim-unimpaired'
 
 " auto complete
 Bundle 'Shougo/neocomplcache'
@@ -86,6 +79,7 @@ Bundle 'jgdavey/vim-blockle'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-endwise'
 
 " html
 Bundle 'rstacruz/sparkup'
@@ -100,7 +94,8 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'spf13/vim-colors'
 
 " apperance
-Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 " NOTE: show line number with relative and absolute number
 Bundle 'Chun-Yang/numbers.vim'
 
