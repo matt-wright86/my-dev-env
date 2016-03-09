@@ -1,5 +1,3 @@
-plugins+=(tmux) # TODO: remove this plugin and add better aliases than this provides
-
 alias tmx='tmux attach || tmux'
 alias tms='tmuxinator start'
 alias tmk='tmux kill-session -t'
