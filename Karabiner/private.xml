@@ -17,6 +17,14 @@
     <name>KeyCode::VK_OPEN_URL_Slack</name>
     <url>file:///Applications/Slack.app</url>
   </vkopenurldef>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_Xcode</name>
+    <url>file:///Applications/Xcode.app</url>
+  </vkopenurldef>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_Phone_Simulator</name>
+    <url>file:///Applications/Xcode.app/Contents/Developer/Applications/Simulator.app</url>
+  </vkopenurldef>
 
   <item>
     <name>Change Control+Option+Command+i to open iTerm</name>
@@ -54,6 +62,24 @@
       KeyCode::VK_OPEN_URL_Slack,
     </autogen>
   </item>
+  <item>
+    <name>Change Control+Option+Command+x to open Xcode</name>
+    <identifier>private.control_option_command_x</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::X, VK_CONTROL, VK_OPTION, VK_COMMAND,
+      KeyCode::VK_OPEN_URL_Xcode,
+    </autogen>
+  </item>
+  <item>
+    <name>Change Control+Option+Command+p to open Simulator</name>
+    <identifier>private.control_option_command_p</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::P, VK_CONTROL, VK_OPTION, VK_COMMAND,
+      KeyCode::VK_OPEN_URL_Phone_Simulator,
+    </autogen>
+  </item>
 
   <item>
     <name>Change Control+W to delete last word</name>
@@ -63,6 +89,16 @@
       __KeyToKey__
       KeyCode::W, VK_CONTROL,
       KeyCode::DELETE, ModifierFlag::OPTION_L
+    </autogen>
+  </item>
+  <item>
+    <name>Change Control+[ to escape</name>
+    <identifier>remap.control_left_bracket_to_escape</identifier>
+    <not>TERMINAL</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::BRACKET_LEFT, VK_CONTROL,
+      KeyCode::ESCAPE
     </autogen>
   </item>
 </root>
