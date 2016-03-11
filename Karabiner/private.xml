@@ -101,4 +101,24 @@
       KeyCode::ESCAPE
     </autogen>
   </item>
+  <item>
+    <name>Change Control+N to down arrow</name>
+    <identifier>remap.control_n_to_down_arrow</identifier>
+    <not>TERMINAL</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::N, VK_CONTROL,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+  </item>
+  <item>
+    <name>Change Control+P to up arrow</name>
+    <identifier>remap.control_p_to_up_arrow</identifier>
+    <not>TERMINAL</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::P, VK_CONTROL,
+      KeyCode::CURSOR_UP
+    </autogen>
+  </item>
 </root>
