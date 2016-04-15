@@ -5,8 +5,9 @@ if test -e $nvm_path; then
 fi
 
 alias publish='npm version minor && npm publish && git push --follow-tags'
-alias nt='npm test'
-alias nw='npm watch'
-alias nb='npm build'
-alias nl='npm lint'
-alias nf='npm fix'
+alias nt='npm run test'
+alias nw='npm run watch'
+alias nb='npm run build'
+alias nl='npm run lint'
+alias nf='npm run fix'
+alias ni='npm install'
