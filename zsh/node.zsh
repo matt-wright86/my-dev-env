@@ -4,7 +4,7 @@ if test -e $nvm_path; then
   source $nvm_path
 fi
 
-alias publish='npm run build && git add -A && (git commit -m "build" || :) && npm version patch && npm publish && git push --follow-tags'
+alias publish='(npm run build || :) && git add -A && (git commit -m "build" || :) && npm version patch && npm publish && git push --follow-tags'
 alias nt='npm run test'
 alias nw='npm run watch'
 alias nb='npm run build'
