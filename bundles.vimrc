@@ -6,7 +6,7 @@
 " }
 
 " utils
-Bundle 'gmarik/vundle'
+Bundle 'VundleVim/Vundle.vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 
@@ -66,9 +66,6 @@ Bundle 'othree/javascript-libraries-syntax.vim'
 Bundle 'mxw/vim-jsx'
 Bundle 'elzr/vim-json'
 Bundle 'pangloss/vim-javascript'
-
-" python
-Bundle 'klen/python-mode'
 
 " ruby
 Bundle 'rodjek/vim-puppet'
