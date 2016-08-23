@@ -1,8 +1,5 @@
-nvm_path="$(brew --prefix nvm)/nvm.sh"
-if test -e $nvm_path; then
-  export NVM_DIR=~/.nvm
-  source $nvm_path
-fi
+if test -e "$(brew --prefix nvm)/nvm.sh"; then export NVM_DIR=~/.nvm source "$(brew --prefix nvm)/nvm.sh"; fi
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
 alias publish='(npm run build || :) && git add -A && (git commit -m "build" || :) && npm version patch && npm publish && git push --follow-tags'
 alias nt='npm run test'
