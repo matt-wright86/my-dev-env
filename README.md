@@ -1,5 +1,9 @@
 # Requirement:
+
 ```
+# the default vim from mac does not work for clipboard
+# https://evertpot.com/osx-tmux-vim-copy-paste-clipboard
+brew install vim
 brew install reattach-to-user-namespace
 brew install the_silver_searcher
 ```
