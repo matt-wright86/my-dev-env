@@ -8,4 +8,4 @@ if new_name != '' && new_name != old_name
 endif
 endfunction
 
-map <leader>r :call RenameFile()<cr>
+map <leader>rn :call RenameFile()<cr>
