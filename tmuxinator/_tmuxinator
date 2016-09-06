@@ -9,10 +9,9 @@
 # fpath=($HOME/.tmuxinator/completion ${fpath})
 # autoload -U compinit
 # compinit
-
 _tmuxinator() {
   local -a projects
-  projects=(`find ~/.tmuxinator/ -name \*.yml | cut -d/ -f5 | sed s:.yml::g`)
+  projects=(`find ~/.tmuxinator -name \*.yml | cut -d/ -f5 | sed s:.yml::g`)
 
   local -a commands
   commands=(
