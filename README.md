@@ -26,3 +26,6 @@ rm -f ~/.gitignore_global && ln -s ~/.stack.d/.gitignore_global ~/.gitignore_glo
 ```
 git config --global core.excludesfile ~/.gitignore_global
 ```
+
+# Enter to open in finder
+Open Karabiner, search finder, check 'use enter to open'
