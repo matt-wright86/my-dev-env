@@ -68,6 +68,9 @@ Bundle 'mxw/vim-jsx'
 Bundle 'elzr/vim-json'
 Bundle 'pangloss/vim-javascript'
 
+" typescript
+Bundle 'leafgarland/typescript-vim'
+
 " ruby
 Bundle 'rodjek/vim-puppet'
 Bundle 'thoughtbot/vim-rspec'
