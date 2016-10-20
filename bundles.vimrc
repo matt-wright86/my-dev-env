@@ -22,7 +22,6 @@ Bundle 'rking/ag.vim'
 Bundle 'tpope/vim-abolish.git'
 Bundle 'vim-scripts/sessionman.vim'
 Bundle 'Rykka/lastbuf.vim'
-Bundle 'metakirby5/codi.vim'
 
 " text-objects
 Bundle 'vim-scripts/argtextobj.vim'
