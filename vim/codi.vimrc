@@ -1,6 +1,8 @@
-nmap <leader>rj :Codi javascript<cr>
-nmap <leader>rp :Codi python<cr>
-nmap <leader>rr :Codi ruby<cr>
+function Codi#AutoDetect()
+  execute "Codi!! ".&filetype
+endfunction
 
-let codi#raw = 1
+nmap <leader>r :call Codi#AutoDetect()<cr>
+
+" let codi#raw = 1
 let g:codi#rightalign = 0
