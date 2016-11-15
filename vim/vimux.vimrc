@@ -2,7 +2,7 @@ function VimuxRunCurrentFile()
   if &filetype ==? 'python'
     execute 'call VimuxRunCommand("python '.expand('%:p').'")'
   elseif &filetype ==? 'javascript' || &filetype ==? 'javascript.jsx'
-    execute 'call VimuxRunCommand("javascript '.expand('%:p').'")'
+    execute 'call VimuxRunCommand("node '.expand('%:p').'")'
   elseif &filetype ==? 'ruby'
     execute 'call VimuxRunCommand("ruby '.expand('%:p').'")'
   endif
