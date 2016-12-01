@@ -1,6 +1,6 @@
 " symbols , , , , , , and 
 let g:airline#extensions#bufferline#enabled = 0
-let g:airline_theme = 'solarized'
+let g:airline_theme = 'bubblegum'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 

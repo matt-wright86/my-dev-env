@@ -1,1 +1,2 @@
-colorscheme seoul256
+" colorscheme seoul256
+colorscheme pastelesque

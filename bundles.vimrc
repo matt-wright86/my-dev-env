@@ -9,6 +9,7 @@
 Bundle 'VundleVim/Vundle.vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
+Bundle 'matt-wright87/pastelesque'
 
 " config
 Bundle 'tpope/vim-sensible'
